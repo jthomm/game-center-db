@@ -1,0 +1,1 @@
+INSERT INTO gc_cur_drive (drive_num, redzone, postime, fds, result, numplays, qtr, penyds, posteam, ydsgained, start_yrdln, start_team, start_qtr, start_time, end_yrdln, end_team, end_qtr, end_time, _gc_cur_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
