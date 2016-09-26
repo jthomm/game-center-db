@@ -12,8 +12,7 @@ class Table(object):
     `INSERT INTO`.
     """
 
-    SQL_PATH = path.abspath(
-        path.join(path.dirname(path.dirname(__file__)), 'sql'))
+    SQL_PATH = path.abspath(path.join(path.dirname(__file__), 'sql'))
 
     def __init__(self, name):
         self.name = name
