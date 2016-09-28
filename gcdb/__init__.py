@@ -525,11 +525,11 @@ class Gc(InserterABC):
 import argparse
 
 argument_parser = argparse.ArgumentParser(
-    description='Inserter data for a given game')
+    description='Insert data for a given game')
 argument_parser.add_argument(
-    '-d', '--database', help='path to the SQLite database file')
+    '-d', '--database', help='path to the SQLite database file', required=True)
 argument_parser.add_argument(
-    '-f', '--filename', help='path to the Game Center .json file')
+    '-f', '--filename', help='path to the Game Center .json file', required=True)
 argument_parser.add_argument(
     '-g', '--gameid', help="Game Center ID of the game (e.g. '2014092800')")
 
